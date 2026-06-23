@@ -38,8 +38,8 @@
 
 <body>
     <canvas id="webgl-canvas" aria-hidden="true"></canvas>
-    <main class="fixed top-0 left-0 w-full h-screen">
-        <div class="flex flex-col mx-20 my-22 max-[590px]:mx-4 max-[590px]:my-8 max-[590px]:w-11/12">
+    <main class="relative w-full min-h-screen">
+        <div class="flex flex-col mx-6 my-10 max-[590px]:mx-4 max-[590px]:my-8 md:mx-20 md:my-22">
             <header>
                 <h1 class="text-4xl uppercase font-bold">Bérenger</h1>
                 <h2 class="text-normal uppercase bg-white text-black mt-1 w-fit px-2 py-1">Développeur fullstack &
@@ -86,8 +86,7 @@
                 <span class="bg-white text-black px-2 py-1 text-sm rounded-lg">performances</span>
                 <span class="bg-white text-black px-2 py-1 text-sm rounded-lg">sécurité</span>
                 <span class="bg-white text-black px-2 py-1 text-sm rounded-lg">automatisation</span>
-                <span class="bg-white text-black px-2 py-1 text-sm rounded-lg">interactivité</span>
-                <span class="bg-white text-black px-2 py-1 text-sm rounded-lg">sémantique</span>
+                <span class="bg-white text-black px-2 py-1 text-sm rounded-lg">scrapping</span>
             </div>
             <div class="mt-10">
                 <p class="text-sm opacity-75 mb-3">Stack technique & Technologies</p>
@@ -109,9 +108,9 @@
                 <p class="text-sm opacity-75">Vous pouvez consulter mon profil github <a href="https://github.com/bhto"
                         target="_blank" class="opacity-50 hover:opacity-100 duration-200"
                         aria-label="Voir mon profil GitHub">@bhto</a> pour voir plus de projets,
-                    <br> ou me contacter via mon adresse gmail <a href="mailto:llsberenger@gmail.com"
+                    <br class="hidden sm:inline"> ou me contacter via mon adresse gmail <a href="mailto:llsberenger@gmail.com"
                         class="opacity-50 hover:opacity-100 duration-200" target="_blank"
-                        aria-label="M'envoyer un email">llsberenger@gmail.com</a> <br> ou via <a
+                        aria-label="M'envoyer un email">llsberenger@gmail.com</a> <br class="hidden sm:inline"> ou via <a
                         href="https://wa.me/22990817575" target="_blank"
                         class="opacity-50 hover:opacity-100 duration-200"
                         aria-label="Me contacter sur WhatsApp">WhatsApp</a>.
